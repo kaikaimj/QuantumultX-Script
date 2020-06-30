@@ -1,4 +1,4 @@
-hostname = 8.8.8.8,api.m.jd.com,pan.baidu.com,api.rr.tv,m.client.10010.com,www.baidu.com2.club,note.youdao.com,www.xmind.cn,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,api.bilibili.com,app.bilibili.com,*.zhihu.com,p.du.163.com,ios.fuliapps.com,vsco.co,*.my10api.com,apple.fuliapps.com,account.wps.*,api.gotokeep.com,api.vuevideo.net,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,education.github.com,dayone.me,api.keepkeep.com,api.textnow.me
+hostname = api.m.jd.com,pan.baidu.com,api.rr.tv,m.client.10010.com,www.baidu.com2.club,note.youdao.com,www.xmind.cn,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,api.bilibili.com,app.bilibili.com,*.zhihu.com,p.du.163.com,ios.fuliapps.com,vsco.co,*.my10api.com,apple.fuliapps.com,account.wps.*,api.gotokeep.com,api.vuevideo.net,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,education.github.com,dayone.me,api.keepkeep.com,api.textnow.me
 
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body eval_script.js
 
@@ -76,12 +76,4 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 
 ;^https:\/\/(www\.baidu.com2\.club|ayk\.tmdidi\.com|m\.pearkin\.com|souhu\.mett\.me|bkcd\.b-cdn\.net)\/(api\/movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail) url script-response-body eval_script.js
 
-;http:\/\/rest\.zhibo\.tv\/room\/get\-room\-info\-v430 url script-response-body eval_script.js
-
 https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body eval_script.js
-
-;https:\/\/www\.xmind\.cn\/\_res\/devices url script-response-body eval_script.js
-
-^https://8.8.8.8/api url script-request-body eval_script.js
-
-^https://8.8.8.8/(home|app|log\/) url script-response-body eval_script.js
