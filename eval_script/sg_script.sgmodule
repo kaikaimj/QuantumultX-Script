@@ -1,7 +1,7 @@
 #!name=eval_script.js module
 
 [MITM]
-hostname = %INSERT% 8.8.8.8,api.m.jd.com,pan.baidu.com,api.rr.tv,m.client.10010.com,www.baidu.com2.club,note.youdao.com,www.xmind.cn,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,api.bilibili.com,app.bilibili.com,*.zhihu.com,p.du.163.com,ios.fuliapps.com,vsco.co,*.my10api.com,apple.fuliapps.com,account.wps.*,api.gotokeep.com,api.vuevideo.net,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,education.github.com,dayone.me,api.keepkeep.com,api.textnow.me
+hostname = %INSERT% api.m.jd.com,pan.baidu.com,api.rr.tv,m.client.10010.com,www.baidu.com2.club,note.youdao.com,www.xmind.cn,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,api.bilibili.com,app.bilibili.com,*.zhihu.com,p.du.163.com,ios.fuliapps.com,vsco.co,*.my10api.com,apple.fuliapps.com,account.wps.*,api.gotokeep.com,api.vuevideo.net,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,education.github.com,dayone.me,api.keepkeep.com,api.textnow.me
 
 [Script]
 eval_script.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),script-path=eval_script.js
@@ -80,12 +80,4 @@ eval_script.js = type=http-response,requires-body=1,pattern=^https?://m.client.1
 
 eval_script.js = type=http-response,requires-body=1,pattern=;^https:\/\/(www\.baidu.com2\.club|ayk\.tmdidi\.com|m\.pearkin\.com|souhu\.mett\.me|bkcd\.b-cdn\.net)\/(api\/movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail),script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=;http:\/\/rest\.zhibo\.tv\/room\/get\-room\-info\-v430,script-path=eval_script.js
-
 eval_script.js = type=http-response,requires-body=1,pattern=https://note.youdao.com/yws/(mapi/payment|api/self),script-path=eval_script.js
-
-eval_script.js = type=http-response,requires-body=1,pattern=;https:\/\/www\.xmind\.cn\/\_res\/devices,script-path=eval_script.js
-
-eval_script.js = type=http-request,requires-body=1,pattern=^https://8.8.8.8/api,script-path=eval_script.js
-
-eval_script.js = type=http-response,requires-body=1,pattern=^https://8.8.8.8/(home|app|log\/),script-path=eval_script.js
