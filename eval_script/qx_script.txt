@@ -46,8 +46,6 @@ https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/
 
 ;^https?:\/\/.*\.(lago|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/) url script-response-body eval_script.js
 
-;^https://account.wps.*/api/users/ url script-response-body eval_script.js
-
 ^https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) url script-response-body eval_script.js
 
 ;^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) url script-response-body eval_script.js
@@ -64,13 +62,7 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 
 ^https:\/\/app\.bilibili\.com\/(search\/resource|x\/(resource\/show\/tab|v2\/(view|rank|feed|reply\/main|account\/mine))) url script-response-body eval_script.js
 
-^https:\/\/app\.bilibili\.com\/x\/v2\/space\?access_key url script-response-body eval_script.js
-
-;^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body eval_script.js
-
-^https?:\/\/pan\.baidu\.com\/s\/ url script-response-body eval_script.js
-
-;^http://ctrl.playcvn.com/app/(init|ads) url script-response-body eval_script.js
+;^https:\/\/app\.bilibili\.com\/x\/v2\/space\?access_key url script-response-body eval_script.js
 
 ^https?://m.client.10010.com/uniAdmsInterface/getHomePageAd url script-response-body eval_script.js
 
