@@ -42,19 +42,11 @@ https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/
 
 ^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ url script-response-body eval_script.js
 
-;^https://sp\.kaola\.com/api/openad$ url script-response-body eval_script.js
-
 ;^https?:\/\/.*\.(lago|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/) url script-response-body eval_script.js
 
 ^https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) url script-response-body eval_script.js
 
 ;^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) url script-response-body eval_script.js
-
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body eval_script.js
-
-;^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body eval_script.js
-
-^https:\/\/education\.github\.com\/api\/user$ url script-response-body eval_script.js
 
 ^https:\/\/dayone\.me\/api\/(users|v2\/users\/account-status)$ url script-response-body eval_script.js
 
