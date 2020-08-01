@@ -4,7 +4,7 @@
 hostname = %INSERT% api.m.jd.com,pan.baidu.com,api.rr.tv,m.client.10010.com,www.baidu.com2.club,note.youdao.com,www.xmind.cn,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,api.bilibili.com,app.bilibili.com,*.zhihu.com,p.du.163.com,ios.fuliapps.com,vsco.co,*.my10api.com,apple.fuliapps.com,account.wps.*,api.gotokeep.com,api.vuevideo.net,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,education.github.com,dayone.me,api.keepkeep.com,api.textnow.me
 
 [Script]
-eval_script.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=eval_script.js
 
 eval_script.js = type=http-request,requires-body=1,pattern=^http://.+/amdc/mobileDispatch,script-path=eval_script.js
 
