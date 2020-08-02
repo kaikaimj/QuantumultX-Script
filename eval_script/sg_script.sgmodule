@@ -24,7 +24,7 @@ eval_script.js = type=http-response,requires-body=1,pattern=https://api.zhihu.co
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https://api.zhihu.com/people/,script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=^https://api.zhihu.com/market/header,script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=;^https://api.zhihu.com/market/header,script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=https://app.bilibili.com/x/v2/space\?access_key,script-path=eval_script.js
 
