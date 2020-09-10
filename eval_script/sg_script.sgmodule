@@ -34,6 +34,8 @@ eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/ap(p|i)\.
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/app\.bilibili\.com\/(search\/resource|x\/(resource\/show\/tab|v2\/(view|rank|feed|reply\/main|account\/mine))),script-path=eval_script.js
 
+eval_script.js = type=http-response,requires-body=1,pattern=;^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$,script-path=eval_script.js
+
 eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$,script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/dayone\.me\/api\/(users|v2\/users\/account-status)$,script-path=eval_script.js
