@@ -6,15 +6,15 @@ hostname = %INSERT% api.m.jd.com,pan.baidu.com,api.rr.tv,m.client.10010.com,www.
 [Script]
 eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=https://api.zhihu.com/people/,script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=;https://api.zhihu.com/people/,script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=https://api.zhihu.com/moments/recommend,script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=;https://api.zhihu.com/moments/recommend,script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=https://api.zhihu.com/topstory/recommend,script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=;https://api.zhihu.com/topstory/recommend,script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=https://api.zhihu.com/v4/questions,script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=;https://api.zhihu.com/v4/questions,script-path=eval_script.js
 
-eval_script.js = type=http-request,pattern=https?://link.zhihu.com/?target=,script-path=eval_script.js
+eval_script.js = type=http-request,pattern=;https?://link.zhihu.com/?target=,script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=https://app.bilibili.com/x/v2/space?access_key,script-path=eval_script.js
 
