@@ -2,15 +2,15 @@ hostname = api.m.jd.com,pan.baidu.com,api.rr.tv,m.client.10010.com,www.baidu.com
 
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body eval_script.js
 
-https://api.zhihu.com/people/ url script-response-body eval_script.js
+;https://api.zhihu.com/people/ url script-response-body eval_script.js
 
-https://api.zhihu.com/moments/recommend url script-response-body eval_script.js
+;https://api.zhihu.com/moments/recommend url script-response-body eval_script.js
 
-https://api.zhihu.com/topstory/recommend url script-response-body eval_script.js
+;https://api.zhihu.com/topstory/recommend url script-response-body eval_script.js
 
-https://api.zhihu.com/v4/questions url script-response-body eval_script.js
+;https://api.zhihu.com/v4/questions url script-response-body eval_script.js
 
-https?://link.zhihu.com/?target= url script-request-header eval_script.js
+;https?://link.zhihu.com/?target= url script-request-header eval_script.js
 
 https://app.bilibili.com/x/v2/space?access_key url script-response-body eval_script.js
 
