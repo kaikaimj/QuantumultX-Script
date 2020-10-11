@@ -1,11 +1,4 @@
-const __conf = String.raw`
 
-[Remote]
-// custom remote...
-https://raw.githubusercontent.com/yichahucha/surge/master/qx_sub.txt
-
-[Local]
-// custom local...
 
 # 去微信公众号广告
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
